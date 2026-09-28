@@ -1,0 +1,86 @@
+=== Teste Verificare ===
+  PASS: un baiat citeste
+  PASS: o fata scrie
+  PASS: un copil merge la o scoala
+  PASS: o fata frumoasa citeste o carte
+  PASS (corect invalid): un fata citeste
+  PASS (corect invalid): o baiat scrie
+  PASS (corect invalid): citeste un baiat
+  PASS (corect invalid):
+
+=== Teste Acord Gramatical ===
+  PASS: un om merge
+  PASS: o masa merge
+  PASS: niste baieti citesc
+  PASS: niste fete scriu
+  PASS (corect invalid): un casa merge
+  PASS (corect invalid): o copil citeste
+  PASS: un baiat frumos merge
+  PASS: o fata frumoasa merge
+  PASS: niste baieti frumosi merg
+  PASS (corect invalid): un baiat frumoasa merge
+  PASS (corect invalid): o fata frumos scrie
+  PASS: un baiat citeste
+  PASS: niste baieti citesc
+  PASS (corect invalid): un baiat citesc
+  PASS (corect invalid): niste fete scrie
+
+=== Teste Pronume Personale ===
+  PASS: eu citesc
+  PASS: eu merg la o scoala
+  PASS: eu vad un prieten
+  PASS: tu citesti
+  PASS: tu mergi acasa
+  PASS: tu scrii o carte
+  PASS: el citeste
+  PASS: ea scrie
+  PASS: noi citim
+  PASS: noi mergem la o masa
+  PASS: voi cititi
+  PASS: voi scrieti o carte
+  PASS: ei citesc
+  PASS: ele scriu
+  PASS (corect invalid): eu citeste
+  PASS (corect invalid): tu citesc
+  PASS (corect invalid): eu cititi
+  PASS (corect invalid): noi citeste
+
+=== Teste Complement ===
+  PASS: un baiat citeste o carte
+  PASS: o fata vede un copil
+  PASS: un copil merge la o scoala
+  PASS: o fata scrie in o casa
+  PASS: un baiat scrie o carte la o masa
+  PASS: o fata citeste o carte in o casa
+  PASS: eu cumpar o carte pentru un prieten
+  PASS: noi mergem cu niste prieteni
+
+=== Teste Adverbe ===
+  PASS: eu merg repede
+  PASS: tu citesti bine
+  PASS: el merge acolo
+  PASS: ea scrie mult
+  PASS: noi mergem acasa
+  PASS: un baiat merge repede
+  PASS: o fata citeste o carte bine
+  PASS (corect invalid): eu repede merg
+  PASS (corect invalid): repede eu merg
+
+=== Teste Edge-Case ===
+  PASS (corect invalid):
+  PASS (corect invalid): citeste
+  PASS (corect invalid): un baiat
+  PASS (corect invalid): un un baiat citeste
+  PASS (corect invalid): o fata scrie scrie
+  PASS (corect invalid): baiat citeste
+
+=== Teste Generare ===
+  Generez 5 propozitii aleatorii:
+un baiat scrie niste mese.
+un baiat scrie un prieten frumos.
+un baiat citeste niste case bune.
+un baiat scrie un om mic.
+un baiat citeste niste baieti.
+
+=== Toate testele finalizate ===
+true
